@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class QuickSort {
+public class Quicksort {
 
     public static void sort(List<Integer> arr) {
         if (arr == null || arr.size() < 2) return;
