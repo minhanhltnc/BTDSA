@@ -4,9 +4,9 @@ public class JesseandCookies {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt(); // số lượng bánh
-        int K = scanner.nextInt(); // ngưỡng độ ngọt
+        int K = scanner.nextInt(); // độ ngọt
 
-        // Tạo hàng đợi ưu tiên kiểu min-PQ
+        // hàng đợi ưu tiên trong java mặc định kiểu min-PQ
         PriorityQueue<Integer> pqueue = new PriorityQueue<>();
 
         for (int i = 0; i < N; i++) {
@@ -16,14 +16,14 @@ public class JesseandCookies {
         int count = 0;
 
         while (pqueue.size() >= 2 && pqueue.peek() < K) {
-            int m1 = pqueue.poll();      // bánh ít ngọt nhất
-            int m2 = pqueue.poll();      // bánh ít ngọt thứ hai
-            int mixed = m1 + 2 * m2;     // bánh mới sau khi trộn
+            int m1 = pqueue.poll();   // bánh ít ngọt nhất
+            int m2 = pqueue.poll();   // bánh ít ngọt thứ hai
+            int mixed = m1 + 2 * m2;  // bánh mới
             pqueue.add(mixed);
             count++;
         }
 
-        // Kiểm tra xem bánh ngọt nhất đã đạt ngưỡng chưa
+        // Kiểm tra
         if (!pqueue.isEmpty() && pqueue.peek() >= K) {
             System.out.println(count);
         } else {

@@ -38,7 +38,7 @@ public class Quicksort {
         int temp = arr.get(low);
         arr.set(low, arr.get(j));
         arr.set(j, temp);
-
+        //tra ve vi tri cuar pivot,pivot da o vi tri chua cua no
         return j;
     }
 

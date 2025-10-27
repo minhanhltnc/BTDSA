@@ -1,0 +1,14 @@
+-Với mảng được sắp xếp
+InsertionSort:O(n)- do ko cần dịch chuyển,vì phần tử phía trc đều nhỏ hơn key
+SelectionSort:O(n^2)- chạy thêm 1 vòng for để tìm min
+- Mảng đảo ngược
+InsertionSort:O(n^2)- bước nào cũng cần dịch chuyển
+SelectionSort:O(n^2)
+-Mảng ngẫu nhiên:
+InsertionSort:O(n^2
+SelectionSort:O(n^2)
+Kết luận
++ Insertion Sort có hiệu năng tốt hơn khi dữ liệu đã sắp xếp hoặc gần sắp xếp.
++Selection Sort ổn định nhưng không tối ưu, vì luôn duyệt toàn bộ phần còn lại.
++ Nếu cần sắp xếp mảng nhỏ hoặc gần sắp xếp, Insertion Sort là lựa chọn tốt hơn
++ Cả 2 đều ko tối ưu cho mảng lớn -> dùng MergeSort,QuickSort

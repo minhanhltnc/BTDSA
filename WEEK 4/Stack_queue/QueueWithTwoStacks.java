@@ -48,7 +48,7 @@ public class QueueWithTwoStacks {
         }
     }
 
-    // Hàm main để kiểm thử
+    // Hàm main
     public static void main(String[] args) {
         QueueWithTwoStacks queue = new QueueWithTwoStacks();
 

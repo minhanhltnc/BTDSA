@@ -1,5 +1,9 @@
 import java.util.*;
 
+/**
+ * Kiểm tra xem chuoi dau ngoac co can bang ko
+ * VD {[[((()))]]} là cân bằng
+ */
 public class BalancedBrackets {
     public String checkBrackets(String s) {
         Stack<Character> stack = new Stack<Character>();

@@ -17,14 +17,25 @@ public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = {64, 25, 12, 22, 11};
 
+        int[] sorted = {1, 2, 3, 4, 5};
+        int[] reversed = {5, 4, 3, 2, 1};
+        int[] random = {3, 1, 4, 5, 2};
+
+
+
         System.out.println("Mảng ban đầu:");
         for (int num : arr) {
             System.out.print(num + " ");
         }
 
-        SelectionSort(arr);
-        //BubleSort(arr);
-        //InsertionSort(arr);
+
+        // chạy và đo thời gian
+        long startTime = System.nanoTime();
+        SelectionSort(sorted);
+        long endTime = System.nanoTime(); // Kết thúc đo
+
+        long duration = endTime - startTime; // Thời gian chạy (nano giây)
+        System.out.println("Thời gian chạy: " + duration + " nanoseconds");
 
         System.out.println("\nMảng sau khi sắp xếp:");
         for (int num : arr) {
