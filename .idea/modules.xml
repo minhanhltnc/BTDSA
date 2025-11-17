@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/WEEK 4/Sort1/Sort1.iml" filepath="$PROJECT_DIR$/WEEK 4/Sort1/Sort1.iml" />
       <module fileurl="file://$PROJECT_DIR$/TH-DSA.iml" filepath="$PROJECT_DIR$/TH-DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/WEEK 4/WEEK 4.iml" filepath="$PROJECT_DIR$/WEEK 4/WEEK 4.iml" />

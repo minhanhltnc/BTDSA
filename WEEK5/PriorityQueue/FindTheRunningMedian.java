@@ -6,6 +6,7 @@ import java.util.PriorityQueue;
 /**
  * Tóm tắt: Đọc lần lượt vào N số nguyên.
  * Sau mỗi lần đọc vào số thứ i, in ra giá trị trung vị của i số đã nhập vào.
+ * Dùng qu
  */
 
 public class FindTheRunningMedian {

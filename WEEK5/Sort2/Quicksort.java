@@ -20,6 +20,7 @@ public class Quicksort {
         int i = low + 1;
         int j = high;
 
+        // vòng while chia mang
         while (true) {
             while (i <= j && arr.get(i) <= pivot) {
                 i++;//chay i den bao gio gap lon hon privot
